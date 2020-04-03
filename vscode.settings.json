@@ -80,7 +80,6 @@
     "**/.next": true
   },
   // misc extension settings
-  "sync.gist": "6b3b17d213be4caf2f3b448abc1e26a9",
   "bracketPairColorizer.forceIterationColorCycle": true,
   "color-highlight.matchWords": false,
   "prettier.requireConfig": true,
