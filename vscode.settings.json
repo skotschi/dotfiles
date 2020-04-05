@@ -1,93 +1,51 @@
 {
-  // font configurations
-  "editor.fontFamily": "'Victor Mono', Menlo, Monaco, 'Courier New', monospace",
-  "editor.fontSize": 12,
-  "editor.fontLigatures": true,
-  "editor.fontWeight": "400",
-  "editor.letterSpacing": 0.5,
-  // cursor configuration
-  "editor.cursorStyle": "line-thin",
-  "editor.cursorBlinking": "solid",
-  "editor.multiCursorModifier": "ctrlCmd",
-  "editor.cursorSmoothCaretAnimation": true,
-  // editor configuration
-  "editor.quickSuggestionsDelay": 30,
-  "editor.colorDecorators": true,
-  "editor.tabSize": 2,
-  "editor.renderWhitespace": "boundary",
-  "editor.wordWrap": "on",
-  // minimap configuration
-  "editor.minimap.enabled": true,
-  "editor.minimap.showSlider": "mouseover",
-  "editor.snippetSuggestions": "top",
-  "editor.autoIndent": "brackets",
-  "editor.detectIndentation": false,
-  "editor.showFoldingControls": "always",
-  "editor.find.seedSearchStringFromSelection": true,
-  "editor.matchBrackets": "always",
-  "editor.scrollBeyondLastLine": true,
-  "editor.useTabStops": true,
-  "editor.formatOnPaste": true,
-  "editor.parameterHints.enabled": false,
-  "editor.renderIndentGuides": true,
-  "editor.formatOnSave": true,
-  // workbench configuration
-  "workbench.colorTheme": "Night Owl",
-  "workbench.activityBar.visible": true,
-  "workbench.sideBar.location": "left",
-  "workbench.editor.tabSizing": "shrink",
-  "workbench.startupEditor": "newUntitledFile",
-  "workbench.iconTheme": "material-icon-theme",
-  "workbench.editor.closeEmptyGroups": true,
-  "workbench.editor.closeOnFileDelete": true,
-  "workbench.editor.enablePreviewFromQuickOpen": false,
-  "workbench.editor.enablePreview": true,
-  "workbench.tree.renderIndentGuides": "onHover",
-  "workbench.settings.editor": "json",
-  // window configuration
-  "window.closeWhenEmpty": true,
-  "window.openFilesInNewWindow": "off",
-  "window.zoomLevel": 0,
-  "window.title": "${dirty} ${activeEditorMedium}${separator}${rootName}",
-  "terminal.integrated.fontFamily": "Victor Mono",
-  "extensions.ignoreRecommendations": false,
-  //file settings
-  "files.insertFinalNewline": true,
-  "files.trimTrailingWhitespace": true,
-  // file types
-  "javascript.updateImportsOnFileMove.enabled": "always",
-  "typescript.updateImportsOnFileMove.enabled": "always",
-  "html.format.wrapLineLength": 0,
-  "html.format.enable": false,
-  "[markdown]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnSave": false
-  },
-  "[html]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnSave": true
-  },
-  "[json]": {
-    "editor.defaultFormatter": "EditorConfig.EditorConfig",
-    "editor.formatOnSave": true
-  },
-  "files.exclude": {
-    "**/.git": true,
-    "**/.svn": true,
-    "**/.hg": true,
-    "**/CVS": true,
-    "**/.DS_Store": true,
-    "**/.next": true
-  },
-  // misc extension settings
-  "bracketPairColorizer.forceIterationColorCycle": true,
-  "color-highlight.matchWords": false,
-  "prettier.requireConfig": true,
-  "eslint.validate": [
-    "javascript",
-    "javascriptreact",
-    "typescript",
-    "typescriptreact",
-    "html"
-  ],
+    // type configuration
+    "editor.fontSize": 12,
+    "editor.fontFamily": "'Victor Mono', Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontLigatures": true,
+    "editor.letterSpacing": 0.5,
+    "editor.renderWhitespace": "boundary",
+    "editor.cursorStyle": "line-thin",
+    "editor.tabSize": 2,
+    "editor.cursorSmoothCaretAnimation": true,
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "Night Owl",
+    "workbench.editor.closeEmptyGroups": true,
+    "workbench.editor.closeOnFileDelete": true,
+    "window.title": "${dirty} ${activeEditorMedium}${separator}${rootName}",
+    // Formatting setting
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    "eslint.validate": [
+        "javascript"
+    ],
+    "[html]": {
+        "editor.suggest.insertMode": "replace",
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+    },
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features",
+        "editor.formatOnSave": true,
+        "editor.quickSuggestions": {
+            "strings": true
+        },
+        "editor.suggest.insertMode": "replace"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features",
+        "editor.formatOnSave": true,
+        "editor.quickSuggestions": {
+            "strings": true
+        },
+        "editor.suggest.insertMode": "replace"
+    },
+    "[markdown]": {
+        "editor.wordWrap": "on",
+        "editor.quickSuggestions": false,
+        "editor.codeActionsOnSave": {
+            "source.fixAll.markdownlint": true
+        }
+    },
 }
