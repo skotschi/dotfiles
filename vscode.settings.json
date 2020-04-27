@@ -1,7 +1,7 @@
 {
     // type configuration
     "editor.fontSize": 12,
-    "editor.fontFamily": "'Victor Mono', Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontFamily": "'JetBrains Mono', Menlo, Monaco, 'Courier New', monospace",
     "editor.fontLigatures": true,
     "editor.letterSpacing": 0.5,
     "editor.renderWhitespace": "boundary",
@@ -14,12 +14,16 @@
     "workbench.editor.closeOnFileDelete": true,
     "window.title": "${dirty} ${activeEditorMedium}${separator}${rootName}",
     // Formatting setting
+    "editor.formatOnSave": true,
     "editor.codeActionsOnSave": {
-        "source.fixAll.eslint": true
+        "source.fixAll": true
     },
-    "eslint.validate": [
-        "javascript"
-    ],
+    "[javascript]": {
+        "editor.formatOnSave": false
+    },
+    "[javascriptreact]": {
+        "editor.formatOnSave": false
+    },
     "[html]": {
         "editor.suggest.insertMode": "replace",
         "editor.formatOnSave": true,
@@ -48,4 +52,10 @@
             "source.fixAll.markdownlint": true
         }
     },
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "prettier.disableLanguages": [
+        "javascript",
+        "javascriptreact"
+    ],
 }
