@@ -19,3 +19,5 @@ iterm2_print_user_vars() {
   iterm2_set_user_var nodeVersion $(node -v)
   iterm2_set_user_var pwd $(pwd)
 }
+
+source /Users/steffen/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
