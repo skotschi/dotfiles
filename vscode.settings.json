@@ -18,19 +18,10 @@
   "editor.suggest.insertMode": "replace",
 
   // Workbench Settings
-  "workbench.colorTheme": "Night Owl Light",
+  "workbench.colorTheme": "GitHub Light Default",
   "window.autoDetectColorScheme": true,
-  "workbench.preferredLightColorTheme": "Night Owl Light",
-  "workbench.preferredDarkColorTheme": "Night Owl",
-  "workbench.colorCustomizations": {
-    "[Night Owl]": {
-      "activityBar.background": "#000C1D",
-      "activityBar.border": "#102a44",
-      "sideBar.background": "#001122",
-      "sideBar.border": "#102a44",
-      "sideBar.foreground": "#8BADC1"
-    }
-  },
+  "workbench.preferredLightColorTheme": "GitHub Light Default",
+  "workbench.preferredDarkColorTheme": "GitHub Dark Default",
   "workbench.productIconTheme": "fluent-icons",
   "workbench.editor.closeEmptyGroups": true,
   "workbench.editor.closeOnFileDelete": true,
@@ -90,5 +81,11 @@
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
   },
-  "eslint.alwaysShowStatus": true
+  "eslint.alwaysShowStatus": true,
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "git.confirmSync": false,
+  "vsicons.dontShowNewVersionMessage": true,
+  "keyboard.layout": "com.apple.keylayout.German"
 }
