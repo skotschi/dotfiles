@@ -4,7 +4,7 @@ tap "homebrew/cask"
 tap "homebrew/bundle"
 
 # 🧑‍💻 Terminal Setup
-brew install spaceship
+brew "spaceship"
 brew "zsh-autosuggestions"
 brew "zsh-syntax-highlighting"
 
