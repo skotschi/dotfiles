@@ -2,6 +2,7 @@
 tap "homebrew/core"
 tap "homebrew/cask"
 tap "homebrew/bundle"
+brew "mas"
 
 # 🧑‍💻 Terminal Setup
 brew "spaceship"
@@ -9,7 +10,6 @@ brew "zsh-autosuggestions"
 brew "zsh-syntax-highlighting"
 
 # 🐆 CLI
-brew "mas"
 brew "nvm"
 brew "ffmpeg"
 brew "gh"
