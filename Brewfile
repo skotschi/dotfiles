@@ -9,7 +9,7 @@ brew "zsh-autosuggestions"
 brew "zsh-syntax-highlighting"
 
 # 🐆 CLI
-brew  "mas"
+brew "mas"
 brew "nvm"
 brew "ffmpeg"
 brew "gh"
