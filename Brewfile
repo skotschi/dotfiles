@@ -8,7 +8,7 @@ brew install spaceship
 brew "zsh-autosuggestions"
 brew "zsh-syntax-highlighting"
 
-# 🐆 Essentials
+# 🐆 CLI
 brew  "mas"
 brew "nvm"
 brew "ffmpeg"
@@ -16,18 +16,27 @@ brew "gh"
 brew "handbrake"
 brew "youtube-dl"
 
+# 🪙 MAS Apps
+mas "Magnet", id: 441258766
+mas "Numbers", id: 409203825
+mas "Pages", id: 409201541
+mas "Yoink", id: 457622435
+
 # 💿 Apps
-cask "iterm2"
-cask "pastebot"
-cask "bartender"
-cask "raycast"
-cask "microsoft-edge"
-cask "netnewswire"
-cask "visual-studio-code"
+cask "1Password"
 cask "adguard"
+cask "bartender"
 cask "discord"
 cask "figma"
+cask "istat-menus"
+cask "iterm2"
+cask "pastebot"
+cask "raycast"
+cask "rocket"
+cask "microsoft-edge"
+cask "netnewswire"
 cask "notion"
-mas "1Password", id: 443987910
-mas "Yoink", id: 457622435
-mas "Magnet", id: 441258766
+cask "visual-studio-code"
+
+# 🖱 Xcode (last because it is huge and stopps everything else from installing)
+mas "Xcode", id: 497799835
