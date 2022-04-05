@@ -17,7 +17,6 @@ brew "handbrake"
 brew "youtube-dl"
 
 # 🪙 MAS Apps
-mas "Magnet", id: 441258766
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
 mas "Yoink", id: 457622435
@@ -35,6 +34,7 @@ cask "netnewswire"
 cask "notion"
 cask "pastebot"
 cask "raycast"
+cask "rectangle"
 cask "rocket"
 cask "selfcontrol"
 cask "visual-studio-code"
