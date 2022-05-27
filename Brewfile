@@ -21,6 +21,7 @@ mas "Pages", id: 409201541
 mas "Numbers", id: 409203825
 mas "Keynote", id: 409183694
 mas "Yoink", id: 457622435
+mas "Hand Mirror", id: 1502839586
 
 # 💿 Apps
 cask "bartender"
