@@ -21,8 +21,6 @@ mas "Tot", id: 1491071483
 mas "Wipr", id: 1320666476
 mas "Yoink", id: 457622435
 
-
-
 # 💿 Apps
 cask "1password"
 cask "adobe-creative-cloud"
@@ -33,11 +31,13 @@ cask "slack"
 cask "istat-menus"
 cask "microsoft-edge"
 cask "microsoft-office"
+cask "microsoft-teams"
 cask "netnewswire"
 cask "pastebot"
 cask "raycast"
 cask "spotify"
 cask "visual-studio-code"
+cask "webex"
 
 # 🖱 Xcode (last because it is huge and stopps everything else from installing)
 mas "Xcode", id: 497799835
