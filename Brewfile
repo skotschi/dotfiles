@@ -6,13 +6,10 @@ tap "homebrew/cask"
 tap "homebrew/bundle"
 brew "mas"
 
-# 🧑‍💻 Terminal Setup
-brew "spaceship"
-
 # 🐆 CLI
 brew "nvm"
 brew "ffmpeg"
-brew "youtube-dl"
+brew "yt-dlp"
 
 # 🪙 MAS Apps
 mas "Hand Mirror", id: 1502839586
@@ -23,19 +20,20 @@ mas "Tot", id: 1491071483
 mas "Yoink", id: 457622435
 
 # 💿 Apps
+cask "1password"
+cask "adobe-creative-cloud"
 cask "bartender"
 cask "discord"
 cask "figma"
+cask "slack"
 cask "istat-menus"
 cask "microsoft-edge"
 cask "microsoft-office"
 cask "netnewswire"
-cask "notion"
 cask "pastebot"
 cask "raycast"
-cask "rectangle"
+cask "spotify"
 cask "visual-studio-code"
-cask "zotero"
 
 # 🖱 Xcode (last because it is huge and stopps everything else from installing)
 mas "Xcode", id: 497799835
