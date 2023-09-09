@@ -4,6 +4,7 @@
 tap "homebrew/core"
 tap "homebrew/cask"
 tap "homebrew/bundle"
+tap "homebrew/cask-fonts"
 brew "mas"
 
 # 🐆 CLI
@@ -38,6 +39,26 @@ cask "raycast"
 cask "spotify"
 cask "visual-studio-code"
 cask "webex"
+
+# 🖋️ Fonts
+brew "font-inter"
+brew "font-ibm-plex"
+brew "font-cascadia-mono"
+brew "font-cascadia-code-pl"
+brew "font-space-mono"
+brew "font-space-grotesk"
+brew "font-space-mono-nerd-font"
+brew "font-noto-mono"
+brew "font-noto-serif-display"
+brew "font-noto-sans-display"
+brew "font-noto-sans"
+brew "font-public-sans"
+brew "font-open-sans"
+brew "font-crimson-pro"
+brew "font-crimson-text"
+brew "font-monoid"
+brew "font-urbanist"
+brew "font-schibsted-grotesk"
 
 # 🖱 Xcode (last because it is huge and stopps everything else from installing)
 mas "Xcode", id: 497799835
