@@ -51,6 +51,7 @@ cask "font-crimson-text"
 cask "font-monoid"
 cask "font-urbanist"
 cask "font-schibsted-grotesk"
+cask "font-monaspace"
 
 # 🖱 Xcode (last because it is huge and stopps everything else from installing)
 mas "Xcode", id: 497799835
