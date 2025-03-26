@@ -1,9 +1,4 @@
-# Install oh-my-zsh first!
-
 # 🍺 Brew Related
-tap "homebrew/core"
-tap "homebrew/cask"
-tap "homebrew/cask-fonts"
 brew "mas"
 
 # 🐆 CLI
