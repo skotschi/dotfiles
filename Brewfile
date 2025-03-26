@@ -3,7 +3,6 @@
 # 🍺 Brew Related
 tap "homebrew/core"
 tap "homebrew/cask"
-tap "homebrew/bundle"
 tap "homebrew/cask-fonts"
 brew "mas"
 
@@ -16,17 +15,14 @@ mas "Hand Mirror", id: 1502839586
 mas "Keynote", id: 409183694
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
-mas "Wipr", id: 1320666476
+mas "wipr-2", id: 1662217862
 mas "Yoink", id: 457622435
 
 # 💿 Apps
 cask "1password"
-cask "adobe-creative-cloud"
 cask "discord"
 cask "figma"
-cask "slack"
 cask "microsoft-office"
-cask "microsoft-teams"
 cask "netnewswire"
 cask "pastebot"
 cask "spotify"
