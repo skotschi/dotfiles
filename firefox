@@ -1,0 +1,3 @@
+ui.autocorrectDefault = 2
+widget.transparent-windows = true
+widget.macos.titlebar-blend-mode.behind-window = true
